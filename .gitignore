@@ -1,0 +1,44 @@
+# Logs
+*.log
+*.logs
+
+# Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Unity
+Library/
+Temp/
+Logs/
+UserSettings/
+*.csproj
+*.sln
+*.unityproj
+obj/
+Build/
+Builds/
+build/
+
+# Asset Store
+/Assets/AssetStoreTools*
+
+# Visual Studio cache
+.vs/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# WebGL Build
+/Build/
+/WebGLBuild/
