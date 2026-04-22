@@ -20,9 +20,8 @@ UserSettings/
 *.sln
 *.unityproj
 obj/
-Build/
 Builds/
-build/
+# build/ - REMOVED: We need to publish WebGL builds
 
 # Asset Store
 /Assets/AssetStoreTools*
@@ -40,5 +39,5 @@ ehthumbs.db
 Thumbs.db
 
 # WebGL Build
-/Build/
+# /Build/ - REMOVED: We need to publish WebGL builds
 /WebGLBuild/
