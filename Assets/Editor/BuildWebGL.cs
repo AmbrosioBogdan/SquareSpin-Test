@@ -13,6 +13,9 @@ public class BuildWebGL
         // Crea la cartella se non esiste
         Directory.CreateDirectory(buildPath);
         
+        // Disabilita compressione WebGL per GitHub Pages
+        PlayerSettings.WebGL.compressionFormat = WebGLCompressionFormat.Disabled;
+        
         // Setup build options
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
         buildPlayerOptions.scenes = new[] { "Assets/Scenes/SampleScene.unity" };
